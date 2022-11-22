@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Noto+Sans+Vai&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 600px;
+    height: 700px;
+    margin-top: 100px;
+    background-color: rgba(45, 41, 41, 0.906);
+}
+.box h1{
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+.contents{
+    height: 400px;
+
+}
+
+#inp-user,#inp-sys{
+    width:220px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 43px;
+    border: none;
+    border-radius: 9px;
+    
+    outline: none;
+    font-size: 1.2rem;
+    text-align: center;
+
+
+}
+#display{
+    margin-top: 160px;
+    text-align: center;
+    color: rgb(206, 200, 26);
+    font-size: 2rem;
+}
+
+/* buttons section styling */
+.button{
+    text-align: center;
+}
+.submit{
+    width: 100px;
+    height: 95px;
+    border: none;
+    border-radius: 100%;
+    font-size: 1.2rem;
+    background-color: #F4BC1C;
+    margin-left: 30px;
+}
+.submit:hover{
+    background-color: black;
+    color: #F4BC1C;
+    border: 1px solid;
+    border-color: #F4BC1C;
+}
