@@ -7,7 +7,9 @@
     <meta name="viewport" content="width= , initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -19,15 +21,22 @@
         <div class="box">
             <h1>Rock Paper Scissor</h1>
             <div class="contents">
-                
+
                 <input type="text " id="inp-user" placeholder="User">
                 <input type="text" name="" id="inp-sys" placeholder="System">
+                <h3 class="points">User : <label for="" id="pts"></label></h3>
+                <h3 class="points-s">System : <label for="" id="pts-s"></label></h3>
                 <h3 id="display"></h3>
             </div>
+
+            <!-- buttons with images -->
             <div class="button">
-                <button class="submit" id="button" onclick="buttonClick('rock')" >ROCK</button>
-                <button class="submit" id="button" onclick="buttonClick('paper')" >PAPER</i></button>
-                <button class="submit" id="button" onclick="buttonClick('scissor')" >SCISSOR</button>
+                <button class="submit" id="button" onclick="buttonClick('rock')"><img src="./images/rock.png" alt=""
+                        class="images"></button>
+                <button class="submit" id="button" onclick="buttonClick('paper')"><img src="./images/paper.png" alt=""
+                        class="images"></i></button>
+                <button class="submit" id="button" onclick="buttonClick('scissor')"><img src="./images/scissor.png"
+                        alt="" class="images"></button>
             </div>
         </div>
     </div>
